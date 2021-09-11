@@ -8,24 +8,24 @@
 import Foundation
 
 public struct Car {
-    let id: String
-    let make: CarMake
-    let color: String
-    let year: Int
-    let configuration: CarConfiguration
-    let origin: String?
-    let mpg: Int?
-    let image: String?
-    let price: Int
+    public let id: String
+    public let make: CarMake
+    public let color: String
+    public let year: Int
+    public let configuration: CarConfiguration
+    public let origin: String?
+    public let mpg: Int?
+    public let image: String?
+    public let price: Int
 }
 
 public struct CarMake {
-    let manufacturer: String
-    let model: String
+    public let manufacturer: String
+    public let model: String
 }
 
 public struct CarConfiguration {
-    let body: String
-    let cylinders: Int?
-    let horsepower: Int?
+    public let body: String
+    public let cylinders: Int?
+    public let horsepower: Int?
 }

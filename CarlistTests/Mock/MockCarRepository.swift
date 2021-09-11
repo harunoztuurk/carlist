@@ -11,10 +11,11 @@ import Combine
 
 class MockCarRepository: CarsRepository {
 
-    let publisher = PassthroughSubject<[Car], RepositoryError>()
+    var publisher: AnyPublisher<[Car], RepositoryError>!
 
+    init() {}
+    
     func getCars() -> AnyPublisher<[Car], RepositoryError> {
         publisher
-            .eraseToAnyPublisher()
     }
 }

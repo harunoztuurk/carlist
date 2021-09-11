@@ -3,7 +3,7 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 52;
 	objects = {
 
 /* Begin PBXBuildFile section */
@@ -12,13 +12,19 @@
 		EE8AB67826EC33B4003788DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB67726EC33B4003788DF /* ViewController.swift */; };
 		EE8AB67D26EC33B6003788DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB67C26EC33B6003788DF /* Assets.xcassets */; };
 		EE8AB68026EC33B6003788DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB67E26EC33B6003788DF /* LaunchScreen.storyboard */; };
-		EE8AB68B26EC33B6003788DF /* CarlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB68A26EC33B6003788DF /* CarlistTests.swift */; };
 		EE8AB69626EC33B6003788DF /* CarlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB69526EC33B6003788DF /* CarlistUITests.swift */; };
 		EE8AB6AA26EC41AA003788DF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6A926EC41AA003788DF /* Car.swift */; };
 		EE8AB6AE26EC71DE003788DF /* RepositoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6AD26EC71DE003788DF /* RepositoryError.swift */; };
 		EE8AB6B026EC7240003788DF /* CarsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6AF26EC7240003788DF /* CarsRepository.swift */; };
 		EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6B226EC7745003788DF /* GetCarListUserCase.swift */; };
 		EE8AB6B626EC7A40003788DF /* MockCarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */; };
+		EE8AB6BF26EC9AE7003788DF /* Quick in Frameworks */ = {isa = PBXBuildFile; productRef = EE8AB6BE26EC9AE7003788DF /* Quick */; };
+		EE8AB6C226EC9B1A003788DF /* Nimble in Frameworks */ = {isa = PBXBuildFile; productRef = EE8AB6C126EC9B1A003788DF /* Nimble */; };
+		EE8AB6C426EC9B56003788DF /* GetCarListUserCaseSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6C326EC9B56003788DF /* GetCarListUserCaseSpec.swift */; };
+		EE8AB6C726EC9FD2003788DF /* QuickSpec+Combine.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6C626EC9FD1003788DF /* QuickSpec+Combine.swift */; };
+		EE8AB6C926ECA7C8003788DF /* Car+Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6C826ECA7C8003788DF /* Car+Fixture.swift */; };
+		EE8AB6CC26ECB094003788DF /* EquatableViaDump.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6CB26ECB094003788DF /* EquatableViaDump.swift */; };
+		EE8AB6D026ECBFCD003788DF /* ResultExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6CF26ECBFCD003788DF /* ResultExtension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,7 +53,6 @@
 		EE8AB67F26EC33B6003788DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE8AB68126EC33B6003788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE8AB68626EC33B6003788DF /* CarlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		EE8AB68A26EC33B6003788DF /* CarlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlistTests.swift; sourceTree = "<group>"; };
 		EE8AB68C26EC33B6003788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE8AB69126EC33B6003788DF /* CarlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8AB69526EC33B6003788DF /* CarlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlistUITests.swift; sourceTree = "<group>"; };
@@ -57,6 +62,11 @@
 		EE8AB6AF26EC7240003788DF /* CarsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsRepository.swift; sourceTree = "<group>"; };
 		EE8AB6B226EC7745003788DF /* GetCarListUserCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarListUserCase.swift; sourceTree = "<group>"; };
 		EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCarRepository.swift; sourceTree = "<group>"; };
+		EE8AB6C326EC9B56003788DF /* GetCarListUserCaseSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarListUserCaseSpec.swift; sourceTree = "<group>"; };
+		EE8AB6C626EC9FD1003788DF /* QuickSpec+Combine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "QuickSpec+Combine.swift"; sourceTree = "<group>"; };
+		EE8AB6C826ECA7C8003788DF /* Car+Fixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+Fixture.swift"; sourceTree = "<group>"; };
+		EE8AB6CB26ECB094003788DF /* EquatableViaDump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableViaDump.swift; sourceTree = "<group>"; };
+		EE8AB6CF26ECBFCD003788DF /* ResultExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExtension.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -71,6 +81,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8AB6BF26EC9AE7003788DF /* Quick in Frameworks */,
+				EE8AB6C226EC9B1A003788DF /* Nimble in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -121,8 +133,9 @@
 		EE8AB68926EC33B6003788DF /* CarlistTests */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB6CA26ECAB44003788DF /* Mock */,
+				EE8AB6C526EC9FBA003788DF /* Helper */,
 				EE8AB6B426EC79F7003788DF /* Domain */,
-				EE8AB68A26EC33B6003788DF /* CarlistTests.swift */,
 				EE8AB68C26EC33B6003788DF /* Info.plist */,
 			);
 			path = CarlistTests;
@@ -183,9 +196,28 @@
 		EE8AB6B426EC79F7003788DF /* Domain */ = {
 			isa = PBXGroup;
 			children = (
-				EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */,
+				EE8AB6C326EC9B56003788DF /* GetCarListUserCaseSpec.swift */,
 			);
 			path = Domain;
+			sourceTree = "<group>";
+		};
+		EE8AB6C526EC9FBA003788DF /* Helper */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6C826ECA7C8003788DF /* Car+Fixture.swift */,
+				EE8AB6C626EC9FD1003788DF /* QuickSpec+Combine.swift */,
+				EE8AB6CB26ECB094003788DF /* EquatableViaDump.swift */,
+				EE8AB6CF26ECBFCD003788DF /* ResultExtension.swift */,
+			);
+			path = Helper;
+			sourceTree = "<group>";
+		};
+		EE8AB6CA26ECAB44003788DF /* Mock */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */,
+			);
+			path = Mock;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -224,6 +256,10 @@
 				EE8AB68826EC33B6003788DF /* PBXTargetDependency */,
 			);
 			name = CarlistTests;
+			packageProductDependencies = (
+				EE8AB6BE26EC9AE7003788DF /* Quick */,
+				EE8AB6C126EC9B1A003788DF /* Nimble */,
+			);
 			productName = CarlistTests;
 			productReference = EE8AB68626EC33B6003788DF /* CarlistTests.xctest */;
 			productType = "com.apple.product-type.bundle.unit-test";
@@ -278,6 +314,8 @@
 			);
 			mainGroup = EE8AB66726EC33B4003788DF;
 			packageReferences = (
+				EE8AB6BD26EC9AE7003788DF /* XCRemoteSwiftPackageReference "Quick" */,
+				EE8AB6C026EC9B19003788DF /* XCRemoteSwiftPackageReference "Nimble" */,
 			);
 			productRefGroup = EE8AB67126EC33B4003788DF /* Products */;
 			projectDirPath = "";
@@ -335,8 +373,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8AB6D026ECBFCD003788DF /* ResultExtension.swift in Sources */,
+				EE8AB6CC26ECB094003788DF /* EquatableViaDump.swift in Sources */,
 				EE8AB6B626EC7A40003788DF /* MockCarRepository.swift in Sources */,
-				EE8AB68B26EC33B6003788DF /* CarlistTests.swift in Sources */,
+				EE8AB6C926ECA7C8003788DF /* Car+Fixture.swift in Sources */,
+				EE8AB6C726EC9FD2003788DF /* QuickSpec+Combine.swift in Sources */,
+				EE8AB6C426EC9B56003788DF /* GetCarListUserCaseSpec.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -653,6 +695,38 @@
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
+
+/* Begin XCRemoteSwiftPackageReference section */
+		EE8AB6BD26EC9AE7003788DF /* XCRemoteSwiftPackageReference "Quick" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Quick";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 4.0.0;
+			};
+		};
+		EE8AB6C026EC9B19003788DF /* XCRemoteSwiftPackageReference "Nimble" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/Quick/Nimble";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 9.2.1;
+			};
+		};
+/* End XCRemoteSwiftPackageReference section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		EE8AB6BE26EC9AE7003788DF /* Quick */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE8AB6BD26EC9AE7003788DF /* XCRemoteSwiftPackageReference "Quick" */;
+			productName = Quick;
+		};
+		EE8AB6C126EC9B1A003788DF /* Nimble */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE8AB6C026EC9B19003788DF /* XCRemoteSwiftPackageReference "Nimble" */;
+			productName = Nimble;
+		};
+/* End XCSwiftPackageProductDependency section */
 	};
 	rootObject = EE8AB66826EC33B4003788DF /* Project object */;
 }
