@@ -1,0 +1,598 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		EE8AB67426EC33B4003788DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB67326EC33B4003788DF /* AppDelegate.swift */; };
+		EE8AB67626EC33B4003788DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB67526EC33B4003788DF /* SceneDelegate.swift */; };
+		EE8AB67826EC33B4003788DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB67726EC33B4003788DF /* ViewController.swift */; };
+		EE8AB67B26EC33B4003788DF /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB67926EC33B4003788DF /* Main.storyboard */; };
+		EE8AB67D26EC33B6003788DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB67C26EC33B6003788DF /* Assets.xcassets */; };
+		EE8AB68026EC33B6003788DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB67E26EC33B6003788DF /* LaunchScreen.storyboard */; };
+		EE8AB68B26EC33B6003788DF /* CarlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB68A26EC33B6003788DF /* CarlistTests.swift */; };
+		EE8AB69626EC33B6003788DF /* CarlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB69526EC33B6003788DF /* CarlistUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		EE8AB68726EC33B6003788DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8AB66826EC33B4003788DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8AB66F26EC33B4003788DF;
+			remoteInfo = Carlist;
+		};
+		EE8AB69226EC33B6003788DF /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = EE8AB66826EC33B4003788DF /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = EE8AB66F26EC33B4003788DF;
+			remoteInfo = Carlist;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		EE8AB67026EC33B4003788DF /* Carlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8AB67326EC33B4003788DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		EE8AB67526EC33B4003788DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
+		EE8AB67726EC33B4003788DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE8AB67A26EC33B4003788DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		EE8AB67C26EC33B6003788DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		EE8AB67F26EC33B6003788DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		EE8AB68126EC33B6003788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8AB68626EC33B6003788DF /* CarlistTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlistTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8AB68A26EC33B6003788DF /* CarlistTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlistTests.swift; sourceTree = "<group>"; };
+		EE8AB68C26EC33B6003788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8AB69126EC33B6003788DF /* CarlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		EE8AB69526EC33B6003788DF /* CarlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlistUITests.swift; sourceTree = "<group>"; };
+		EE8AB69726EC33B6003788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		EE8AB66D26EC33B4003788DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8AB68326EC33B6003788DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8AB68E26EC33B6003788DF /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		EE8AB66726EC33B4003788DF = {
+			isa = PBXGroup;
+			children = (
+				EE8AB67226EC33B4003788DF /* Carlist */,
+				EE8AB68926EC33B6003788DF /* CarlistTests */,
+				EE8AB69426EC33B6003788DF /* CarlistUITests */,
+				EE8AB67126EC33B4003788DF /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		EE8AB67126EC33B4003788DF /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB67026EC33B4003788DF /* Carlist.app */,
+				EE8AB68626EC33B6003788DF /* CarlistTests.xctest */,
+				EE8AB69126EC33B6003788DF /* CarlistUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		EE8AB67226EC33B4003788DF /* Carlist */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB67326EC33B4003788DF /* AppDelegate.swift */,
+				EE8AB67526EC33B4003788DF /* SceneDelegate.swift */,
+				EE8AB67726EC33B4003788DF /* ViewController.swift */,
+				EE8AB67926EC33B4003788DF /* Main.storyboard */,
+				EE8AB67C26EC33B6003788DF /* Assets.xcassets */,
+				EE8AB67E26EC33B6003788DF /* LaunchScreen.storyboard */,
+				EE8AB68126EC33B6003788DF /* Info.plist */,
+			);
+			path = Carlist;
+			sourceTree = "<group>";
+		};
+		EE8AB68926EC33B6003788DF /* CarlistTests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB68A26EC33B6003788DF /* CarlistTests.swift */,
+				EE8AB68C26EC33B6003788DF /* Info.plist */,
+			);
+			path = CarlistTests;
+			sourceTree = "<group>";
+		};
+		EE8AB69426EC33B6003788DF /* CarlistUITests */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB69526EC33B6003788DF /* CarlistUITests.swift */,
+				EE8AB69726EC33B6003788DF /* Info.plist */,
+			);
+			path = CarlistUITests;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		EE8AB66F26EC33B4003788DF /* Carlist */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8AB69A26EC33B6003788DF /* Build configuration list for PBXNativeTarget "Carlist" */;
+			buildPhases = (
+				EE8AB66C26EC33B4003788DF /* Sources */,
+				EE8AB66D26EC33B4003788DF /* Frameworks */,
+				EE8AB66E26EC33B4003788DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = Carlist;
+			productName = Carlist;
+			productReference = EE8AB67026EC33B4003788DF /* Carlist.app */;
+			productType = "com.apple.product-type.application";
+		};
+		EE8AB68526EC33B6003788DF /* CarlistTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8AB69D26EC33B6003788DF /* Build configuration list for PBXNativeTarget "CarlistTests" */;
+			buildPhases = (
+				EE8AB68226EC33B6003788DF /* Sources */,
+				EE8AB68326EC33B6003788DF /* Frameworks */,
+				EE8AB68426EC33B6003788DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8AB68826EC33B6003788DF /* PBXTargetDependency */,
+			);
+			name = CarlistTests;
+			productName = CarlistTests;
+			productReference = EE8AB68626EC33B6003788DF /* CarlistTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		EE8AB69026EC33B6003788DF /* CarlistUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = EE8AB6A026EC33B6003788DF /* Build configuration list for PBXNativeTarget "CarlistUITests" */;
+			buildPhases = (
+				EE8AB68D26EC33B6003788DF /* Sources */,
+				EE8AB68E26EC33B6003788DF /* Frameworks */,
+				EE8AB68F26EC33B6003788DF /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				EE8AB69326EC33B6003788DF /* PBXTargetDependency */,
+			);
+			name = CarlistUITests;
+			productName = CarlistUITests;
+			productReference = EE8AB69126EC33B6003788DF /* CarlistUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		EE8AB66826EC33B4003788DF /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1250;
+				LastUpgradeCheck = 1250;
+				TargetAttributes = {
+					EE8AB66F26EC33B4003788DF = {
+						CreatedOnToolsVersion = 12.5.1;
+					};
+					EE8AB68526EC33B6003788DF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EE8AB66F26EC33B4003788DF;
+					};
+					EE8AB69026EC33B6003788DF = {
+						CreatedOnToolsVersion = 12.5.1;
+						TestTargetID = EE8AB66F26EC33B4003788DF;
+					};
+				};
+			};
+			buildConfigurationList = EE8AB66B26EC33B4003788DF /* Build configuration list for PBXProject "Carlist" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = EE8AB66726EC33B4003788DF;
+			productRefGroup = EE8AB67126EC33B4003788DF /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				EE8AB66F26EC33B4003788DF /* Carlist */,
+				EE8AB68526EC33B6003788DF /* CarlistTests */,
+				EE8AB69026EC33B6003788DF /* CarlistUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		EE8AB66E26EC33B4003788DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8AB68026EC33B6003788DF /* LaunchScreen.storyboard in Resources */,
+				EE8AB67D26EC33B6003788DF /* Assets.xcassets in Resources */,
+				EE8AB67B26EC33B4003788DF /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8AB68426EC33B6003788DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8AB68F26EC33B6003788DF /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		EE8AB66C26EC33B4003788DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8AB67826EC33B4003788DF /* ViewController.swift in Sources */,
+				EE8AB67426EC33B4003788DF /* AppDelegate.swift in Sources */,
+				EE8AB67626EC33B4003788DF /* SceneDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8AB68226EC33B6003788DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8AB68B26EC33B6003788DF /* CarlistTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		EE8AB68D26EC33B6003788DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EE8AB69626EC33B6003788DF /* CarlistUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		EE8AB68826EC33B6003788DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8AB66F26EC33B4003788DF /* Carlist */;
+			targetProxy = EE8AB68726EC33B6003788DF /* PBXContainerItemProxy */;
+		};
+		EE8AB69326EC33B6003788DF /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = EE8AB66F26EC33B4003788DF /* Carlist */;
+			targetProxy = EE8AB69226EC33B6003788DF /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		EE8AB67926EC33B4003788DF /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8AB67A26EC33B4003788DF /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		EE8AB67E26EC33B6003788DF /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				EE8AB67F26EC33B6003788DF /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		EE8AB69826EC33B6003788DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		EE8AB69926EC33B6003788DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		EE8AB69B26EC33B6003788DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS2G29RQ8B;
+				INFOPLIST_FILE = Carlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingxianlin.Carlist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		EE8AB69C26EC33B6003788DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS2G29RQ8B;
+				INFOPLIST_FILE = Carlist/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingxianlin.Carlist;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		EE8AB69E26EC33B6003788DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS2G29RQ8B;
+				INFOPLIST_FILE = CarlistTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingxianlin.CarlistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carlist.app/Carlist";
+			};
+			name = Debug;
+		};
+		EE8AB69F26EC33B6003788DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS2G29RQ8B;
+				INFOPLIST_FILE = CarlistTests/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 14.5;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingxianlin.CarlistTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/Carlist.app/Carlist";
+			};
+			name = Release;
+		};
+		EE8AB6A126EC33B6003788DF /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS2G29RQ8B;
+				INFOPLIST_FILE = CarlistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingxianlin.CarlistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carlist;
+			};
+			name = Debug;
+		};
+		EE8AB6A226EC33B6003788DF /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = LS2G29RQ8B;
+				INFOPLIST_FILE = CarlistUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = com.jingxianlin.CarlistUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = Carlist;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		EE8AB66B26EC33B4003788DF /* Build configuration list for PBXProject "Carlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8AB69826EC33B6003788DF /* Debug */,
+				EE8AB69926EC33B6003788DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8AB69A26EC33B6003788DF /* Build configuration list for PBXNativeTarget "Carlist" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8AB69B26EC33B6003788DF /* Debug */,
+				EE8AB69C26EC33B6003788DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8AB69D26EC33B6003788DF /* Build configuration list for PBXNativeTarget "CarlistTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8AB69E26EC33B6003788DF /* Debug */,
+				EE8AB69F26EC33B6003788DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		EE8AB6A026EC33B6003788DF /* Build configuration list for PBXNativeTarget "CarlistUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EE8AB6A126EC33B6003788DF /* Debug */,
+				EE8AB6A226EC33B6003788DF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = EE8AB66826EC33B4003788DF /* Project object */;
+}
