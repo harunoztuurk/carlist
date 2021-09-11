@@ -14,6 +14,10 @@
 		EE8AB68026EC33B6003788DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB67E26EC33B6003788DF /* LaunchScreen.storyboard */; };
 		EE8AB68B26EC33B6003788DF /* CarlistTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB68A26EC33B6003788DF /* CarlistTests.swift */; };
 		EE8AB69626EC33B6003788DF /* CarlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB69526EC33B6003788DF /* CarlistUITests.swift */; };
+		EE8AB6AA26EC41AA003788DF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6A926EC41AA003788DF /* Car.swift */; };
+		EE8AB6AE26EC71DE003788DF /* RepositoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6AD26EC71DE003788DF /* RepositoryError.swift */; };
+		EE8AB6B026EC7240003788DF /* CarsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6AF26EC7240003788DF /* CarsRepository.swift */; };
+		EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6B226EC7745003788DF /* GetCarListUserCase.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -47,6 +51,10 @@
 		EE8AB69126EC33B6003788DF /* CarlistUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CarlistUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8AB69526EC33B6003788DF /* CarlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlistUITests.swift; sourceTree = "<group>"; };
 		EE8AB69726EC33B6003788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		EE8AB6A926EC41AA003788DF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
+		EE8AB6AD26EC71DE003788DF /* RepositoryError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryError.swift; sourceTree = "<group>"; };
+		EE8AB6AF26EC7240003788DF /* CarsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsRepository.swift; sourceTree = "<group>"; };
+		EE8AB6B226EC7745003788DF /* GetCarListUserCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarListUserCase.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -97,6 +105,7 @@
 		EE8AB67226EC33B4003788DF /* Carlist */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB6A826EC4190003788DF /* Domain */,
 				EE8AB6A326EC3584003788DF /* Resources */,
 				EE8AB67326EC33B4003788DF /* AppDelegate.swift */,
 				EE8AB67526EC33B4003788DF /* SceneDelegate.swift */,
@@ -131,6 +140,41 @@
 				EE8AB67E26EC33B6003788DF /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
+			sourceTree = "<group>";
+		};
+		EE8AB6A826EC4190003788DF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6B126EC739C003788DF /* UserCase */,
+				EE8AB6AC26EC43DA003788DF /* Repository */,
+				EE8AB6AB26EC43D0003788DF /* Model */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
+		EE8AB6AB26EC43D0003788DF /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6A926EC41AA003788DF /* Car.swift */,
+				EE8AB6AD26EC71DE003788DF /* RepositoryError.swift */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		EE8AB6AC26EC43DA003788DF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6AF26EC7240003788DF /* CarsRepository.swift */,
+			);
+			path = Repository;
+			sourceTree = "<group>";
+		};
+		EE8AB6B126EC739C003788DF /* UserCase */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6B226EC7745003788DF /* GetCarListUserCase.swift */,
+			);
+			path = UserCase;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -262,8 +306,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8AB6B026EC7240003788DF /* CarsRepository.swift in Sources */,
 				EE8AB67826EC33B4003788DF /* ViewController.swift in Sources */,
 				EE8AB67426EC33B4003788DF /* AppDelegate.swift in Sources */,
+				EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */,
+				EE8AB6AA26EC41AA003788DF /* Car.swift in Sources */,
+				EE8AB6AE26EC71DE003788DF /* RepositoryError.swift in Sources */,
 				EE8AB67626EC33B4003788DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
