@@ -18,6 +18,7 @@
 		EE8AB6AE26EC71DE003788DF /* RepositoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6AD26EC71DE003788DF /* RepositoryError.swift */; };
 		EE8AB6B026EC7240003788DF /* CarsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6AF26EC7240003788DF /* CarsRepository.swift */; };
 		EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6B226EC7745003788DF /* GetCarListUserCase.swift */; };
+		EE8AB6B626EC7A40003788DF /* MockCarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -55,6 +56,7 @@
 		EE8AB6AD26EC71DE003788DF /* RepositoryError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryError.swift; sourceTree = "<group>"; };
 		EE8AB6AF26EC7240003788DF /* CarsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsRepository.swift; sourceTree = "<group>"; };
 		EE8AB6B226EC7745003788DF /* GetCarListUserCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarListUserCase.swift; sourceTree = "<group>"; };
+		EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCarRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		EE8AB68926EC33B6003788DF /* CarlistTests */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB6B426EC79F7003788DF /* Domain */,
 				EE8AB68A26EC33B6003788DF /* CarlistTests.swift */,
 				EE8AB68C26EC33B6003788DF /* Info.plist */,
 			);
@@ -177,6 +180,14 @@
 			path = UserCase;
 			sourceTree = "<group>";
 		};
+		EE8AB6B426EC79F7003788DF /* Domain */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */,
+			);
+			path = Domain;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -193,6 +204,8 @@
 			dependencies = (
 			);
 			name = Carlist;
+			packageProductDependencies = (
+			);
 			productName = Carlist;
 			productReference = EE8AB67026EC33B4003788DF /* Carlist.app */;
 			productType = "com.apple.product-type.application";
@@ -264,6 +277,8 @@
 				Base,
 			);
 			mainGroup = EE8AB66726EC33B4003788DF;
+			packageReferences = (
+			);
 			productRefGroup = EE8AB67126EC33B4003788DF /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
@@ -320,6 +335,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8AB6B626EC7A40003788DF /* MockCarRepository.swift in Sources */,
 				EE8AB68B26EC33B6003788DF /* CarlistTests.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
