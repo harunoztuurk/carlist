@@ -23,5 +23,5 @@ public extension EquatableViaDump {
 }
 
 
-extension RepositoryError: EquatableViaDump {}
+extension APIError: EquatableViaDump {}
 extension Car: EquatableViaDump {}

@@ -9,5 +9,5 @@ import Foundation
 import Combine
 
 public protocol CarsRepository {
-    func getCars() -> AnyPublisher<[Car], RepositoryError>
+    func getCars() -> AnyPublisher<[Car], APIError>
 }

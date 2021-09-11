@@ -23,11 +23,11 @@ final class GetCarListUserCaseSpec: QuickSpec {
             }
 
             describe("When repository return an list of cars") {
-                var result: Result<[Car], RepositoryError>?
+                var result: Result<[Car], APIError>?
                 beforeEach {
                     let car = Car.toyotaCar()
                     carsRepistory.publisher = Just([car])
-                        .setFailureType(to: RepositoryError.self)
+                        .setFailureType(to: APIError.self)
                         .eraseToAnyPublisher()
                     result = awaitPublisher(testSubject.getCarList())
                 }
@@ -43,16 +43,16 @@ final class GetCarListUserCaseSpec: QuickSpec {
             }
 
             describe("When repository return no data error") {
-                var result: Result<[Car], RepositoryError>?
+                var result: Result<[Car], APIError>?
                 beforeEach {
-                    carsRepistory.publisher = Fail<[Car], RepositoryError>(error: RepositoryError.noData)
+                    carsRepistory.publisher = Fail<[Car], APIError>(error: APIError.noData)
                         .eraseToAnyPublisher()
                     result = awaitPublisher(testSubject.getCarList())
                 }
 
                 it("Then get no data error") {
                     let actualError = result?.getError()
-                    expect(actualError).to(equal(RepositoryError.noData))
+                    expect(actualError).to(equal(APIError.noData))
                 }
             }
         }

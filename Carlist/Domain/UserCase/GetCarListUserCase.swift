@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 protocol GetCarListUserCaseType {
-    func getCarList() -> AnyPublisher<[Car], RepositoryError>
+    func getCarList() -> AnyPublisher<[Car], APIError>
 }
 
 final class GetCarListUserCase: GetCarListUserCaseType {
@@ -20,7 +20,7 @@ final class GetCarListUserCase: GetCarListUserCaseType {
         self.carsRepository = carsRepository
     }
 
-    func getCarList() -> AnyPublisher<[Car], RepositoryError> {
+    func getCarList() -> AnyPublisher<[Car], APIError> {
         carsRepository.getCars()
     }
 }

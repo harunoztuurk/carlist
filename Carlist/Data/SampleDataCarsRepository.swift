@@ -9,7 +9,7 @@ import Foundation
 import Combine
 
 class SampleDataCarsRepository: CarsRepository {
-    func getCars() -> AnyPublisher<[Car], RepositoryError> {
-        Just([]).setFailureType(to: RepositoryError.self).eraseToAnyPublisher()
+    func getCars() -> AnyPublisher<[Car], APIError> {
+        Just([]).setFailureType(to: APIError.self).eraseToAnyPublisher()
     }
 }

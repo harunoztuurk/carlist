@@ -7,8 +7,8 @@
 
 import Foundation
 
-public enum RepositoryError: Error {
+public enum APIError: Error {
     case networkError(error: Error, statusCode: Int)
-    case invalidJSON
+    case invalidJSON(error: Error)
     case noData
 }

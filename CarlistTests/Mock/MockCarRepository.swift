@@ -11,11 +11,11 @@ import Combine
 
 class MockCarRepository: CarsRepository {
 
-    var publisher: AnyPublisher<[Car], RepositoryError>!
+    var publisher: AnyPublisher<[Car], APIError>!
 
     init() {}
     
-    func getCars() -> AnyPublisher<[Car], RepositoryError> {
+    func getCars() -> AnyPublisher<[Car], APIError> {
         publisher
     }
 }

@@ -14,7 +14,7 @@
 		EE8AB68026EC33B6003788DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB67E26EC33B6003788DF /* LaunchScreen.storyboard */; };
 		EE8AB69626EC33B6003788DF /* CarlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB69526EC33B6003788DF /* CarlistUITests.swift */; };
 		EE8AB6AA26EC41AA003788DF /* Car.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6A926EC41AA003788DF /* Car.swift */; };
-		EE8AB6AE26EC71DE003788DF /* RepositoryError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6AD26EC71DE003788DF /* RepositoryError.swift */; };
+		EE8AB6AE26EC71DE003788DF /* APIError.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6AD26EC71DE003788DF /* APIError.swift */; };
 		EE8AB6B026EC7240003788DF /* CarsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6AF26EC7240003788DF /* CarsRepository.swift */; };
 		EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6B226EC7745003788DF /* GetCarListUserCase.swift */; };
 		EE8AB6B626EC7A40003788DF /* MockCarRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */; };
@@ -59,7 +59,7 @@
 		EE8AB69526EC33B6003788DF /* CarlistUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarlistUITests.swift; sourceTree = "<group>"; };
 		EE8AB69726EC33B6003788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		EE8AB6A926EC41AA003788DF /* Car.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Car.swift; sourceTree = "<group>"; };
-		EE8AB6AD26EC71DE003788DF /* RepositoryError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RepositoryError.swift; sourceTree = "<group>"; };
+		EE8AB6AD26EC71DE003788DF /* APIError.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIError.swift; sourceTree = "<group>"; };
 		EE8AB6AF26EC7240003788DF /* CarsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarsRepository.swift; sourceTree = "<group>"; };
 		EE8AB6B226EC7745003788DF /* GetCarListUserCase.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarListUserCase.swift; sourceTree = "<group>"; };
 		EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockCarRepository.swift; sourceTree = "<group>"; };
@@ -175,7 +175,7 @@
 			isa = PBXGroup;
 			children = (
 				EE8AB6A926EC41AA003788DF /* Car.swift */,
-				EE8AB6AD26EC71DE003788DF /* RepositoryError.swift */,
+				EE8AB6AD26EC71DE003788DF /* APIError.swift */,
 			);
 			path = Model;
 			sourceTree = "<group>";
@@ -226,9 +226,17 @@
 		EE8AB6D126ECC4D7003788DF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB6DD26ECDA2E003788DF /* Networking */,
 				EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		EE8AB6DD26ECDA2E003788DF /* Networking */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Networking;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -376,7 +384,7 @@
 				EE8AB67426EC33B4003788DF /* AppDelegate.swift in Sources */,
 				EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */,
 				EE8AB6AA26EC41AA003788DF /* Car.swift in Sources */,
-				EE8AB6AE26EC71DE003788DF /* RepositoryError.swift in Sources */,
+				EE8AB6AE26EC71DE003788DF /* APIError.swift in Sources */,
 				EE8AB67626EC33B4003788DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
