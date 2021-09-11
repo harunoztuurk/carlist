@@ -8,6 +8,6 @@
 import Foundation
 import Combine
 
-protocol CarsRepository {
+public protocol CarsRepository {
     func getCars() -> AnyPublisher<[Car], RepositoryError>
 }

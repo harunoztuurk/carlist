@@ -7,7 +7,7 @@
 
 import Foundation
 
-struct Car {
+public struct Car {
     let id: String
     let make: CarMake
     let color: String
@@ -19,12 +19,12 @@ struct Car {
     let price: Int
 }
 
-struct CarMake {
+public struct CarMake {
     let manufacturer: String
     let model: String
 }
 
-struct CarConfiguration {
+public struct CarConfiguration {
     let body: String
     let cylinders: Int?
     let horsepower: Int?
