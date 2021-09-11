@@ -25,6 +25,7 @@
 		EE8AB6C926ECA7C8003788DF /* Car+Fixture.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6C826ECA7C8003788DF /* Car+Fixture.swift */; };
 		EE8AB6CC26ECB094003788DF /* EquatableViaDump.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6CB26ECB094003788DF /* EquatableViaDump.swift */; };
 		EE8AB6D026ECBFCD003788DF /* ResultExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6CF26ECBFCD003788DF /* ResultExtension.swift */; };
+		EE8AB6D526ECC9A8003788DF /* SampleDataCarsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -67,6 +68,7 @@
 		EE8AB6C826ECA7C8003788DF /* Car+Fixture.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Car+Fixture.swift"; sourceTree = "<group>"; };
 		EE8AB6CB26ECB094003788DF /* EquatableViaDump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableViaDump.swift; sourceTree = "<group>"; };
 		EE8AB6CF26ECBFCD003788DF /* ResultExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExtension.swift; sourceTree = "<group>"; };
+		EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataCarsRepository.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -119,6 +121,7 @@
 		EE8AB67226EC33B4003788DF /* Carlist */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB6D126ECC4D7003788DF /* Data */,
 				EE8AB6A826EC4190003788DF /* Domain */,
 				EE8AB6A326EC3584003788DF /* Resources */,
 				EE8AB67326EC33B4003788DF /* AppDelegate.swift */,
@@ -218,6 +221,14 @@
 				EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */,
 			);
 			path = Mock;
+			sourceTree = "<group>";
+		};
+		EE8AB6D126ECC4D7003788DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -361,6 +372,7 @@
 			files = (
 				EE8AB6B026EC7240003788DF /* CarsRepository.swift in Sources */,
 				EE8AB67826EC33B4003788DF /* ViewController.swift in Sources */,
+				EE8AB6D526ECC9A8003788DF /* SampleDataCarsRepository.swift in Sources */,
 				EE8AB67426EC33B4003788DF /* AppDelegate.swift in Sources */,
 				EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */,
 				EE8AB6AA26EC41AA003788DF /* Car.swift in Sources */,

@@ -7,7 +7,7 @@
 
 import Foundation
 
-public struct Car {
+public struct Car: Decodable {
     public let id: String
     public let make: CarMake
     public let color: String
@@ -19,12 +19,12 @@ public struct Car {
     public let price: Int
 }
 
-public struct CarMake {
+public struct CarMake: Decodable {
     public let manufacturer: String
     public let model: String
 }
 
-public struct CarConfiguration {
+public struct CarConfiguration: Decodable {
     public let body: String
     public let cylinders: Int?
     public let horsepower: Int?
