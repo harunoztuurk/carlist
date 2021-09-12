@@ -9,7 +9,7 @@
 /* Begin PBXBuildFile section */
 		EE8AB67426EC33B4003788DF /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB67326EC33B4003788DF /* AppDelegate.swift */; };
 		EE8AB67626EC33B4003788DF /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB67526EC33B4003788DF /* SceneDelegate.swift */; };
-		EE8AB67826EC33B4003788DF /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB67726EC33B4003788DF /* ViewController.swift */; };
+		EE8AB67826EC33B4003788DF /* CarListViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB67726EC33B4003788DF /* CarListViewController.swift */; };
 		EE8AB67D26EC33B6003788DF /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB67C26EC33B6003788DF /* Assets.xcassets */; };
 		EE8AB68026EC33B6003788DF /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = EE8AB67E26EC33B6003788DF /* LaunchScreen.storyboard */; };
 		EE8AB69626EC33B6003788DF /* CarlistUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB69526EC33B6003788DF /* CarlistUITests.swift */; };
@@ -31,6 +31,11 @@
 		EE8AB6E826ED7726003788DF /* GetCarListSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6E726ED7726003788DF /* GetCarListSession.swift */; };
 		EE8AB6EB26ED848F003788DF /* GetCarListSessionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6EA26ED848F003788DF /* GetCarListSessionSpec.swift */; };
 		EE8AB6ED26ED8614003788DF /* MockAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6EC26ED8613003788DF /* MockAPIProvider.swift */; };
+		EE8AB6F126EDC179003788DF /* CarListSceneDIContainer.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6F026EDC179003788DF /* CarListSceneDIContainer.swift */; };
+		EE8AB6F326EDC824003788DF /* CarListViewModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6F226EDC823003788DF /* CarListViewModel.swift */; };
+		EE8AB6F526EDC937003788DF /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6F426EDC937003788DF /* NiblessViewController.swift */; };
+		EE8AB6F826EDCB39003788DF /* NiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6F726EDCB38003788DF /* NiblessView.swift */; };
+		EE8AB6FA26EDCB67003788DF /* NiblessUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6F926EDCB67003788DF /* NiblessUITableViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -54,7 +59,7 @@
 		EE8AB67026EC33B4003788DF /* Carlist.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = Carlist.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		EE8AB67326EC33B4003788DF /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		EE8AB67526EC33B4003788DF /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		EE8AB67726EC33B4003788DF /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		EE8AB67726EC33B4003788DF /* CarListViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewController.swift; sourceTree = "<group>"; };
 		EE8AB67C26EC33B6003788DF /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		EE8AB67F26EC33B6003788DF /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		EE8AB68126EC33B6003788DF /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
@@ -79,6 +84,11 @@
 		EE8AB6E726ED7726003788DF /* GetCarListSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarListSession.swift; sourceTree = "<group>"; };
 		EE8AB6EA26ED848F003788DF /* GetCarListSessionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarListSessionSpec.swift; sourceTree = "<group>"; };
 		EE8AB6EC26ED8613003788DF /* MockAPIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIProvider.swift; sourceTree = "<group>"; };
+		EE8AB6F026EDC179003788DF /* CarListSceneDIContainer.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListSceneDIContainer.swift; sourceTree = "<group>"; };
+		EE8AB6F226EDC823003788DF /* CarListViewModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListViewModel.swift; sourceTree = "<group>"; };
+		EE8AB6F426EDC937003788DF /* NiblessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessViewController.swift; sourceTree = "<group>"; };
+		EE8AB6F726EDCB38003788DF /* NiblessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessView.swift; sourceTree = "<group>"; };
+		EE8AB6F926EDCB67003788DF /* NiblessUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessUITableViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -131,14 +141,12 @@
 		EE8AB67226EC33B4003788DF /* Carlist */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB68126EC33B6003788DF /* Info.plist */,
+				EE8AB6FE26EDD15C003788DF /* Application */,
+				EE8AB6EF26EDC05C003788DF /* Presentation */,
 				EE8AB6D126ECC4D7003788DF /* Data */,
 				EE8AB6A826EC4190003788DF /* Domain */,
 				EE8AB6A326EC3584003788DF /* Resources */,
-				EE8AB67326EC33B4003788DF /* AppDelegate.swift */,
-				EE8AB67526EC33B4003788DF /* SceneDelegate.swift */,
-				EE8AB67726EC33B4003788DF /* ViewController.swift */,
-				EE8AB67C26EC33B6003788DF /* Assets.xcassets */,
-				EE8AB68126EC33B6003788DF /* Info.plist */,
 			);
 			path = Carlist;
 			sourceTree = "<group>";
@@ -167,6 +175,7 @@
 		EE8AB6A326EC3584003788DF /* Resources */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB67C26EC33B6003788DF /* Assets.xcassets */,
 				EE8AB67E26EC33B6003788DF /* LaunchScreen.storyboard */,
 			);
 			path = Resources;
@@ -276,6 +285,44 @@
 				EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */,
 			);
 			path = Repository;
+			sourceTree = "<group>";
+		};
+		EE8AB6EF26EDC05C003788DF /* Presentation */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6FD26EDD140003788DF /* Foundation */,
+				EE8AB67726EC33B4003788DF /* CarListViewController.swift */,
+				EE8AB6F226EDC823003788DF /* CarListViewModel.swift */,
+			);
+			path = Presentation;
+			sourceTree = "<group>";
+		};
+		EE8AB6F626EDCB24003788DF /* NiblessComponents */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6F426EDC937003788DF /* NiblessViewController.swift */,
+				EE8AB6F726EDCB38003788DF /* NiblessView.swift */,
+				EE8AB6F926EDCB67003788DF /* NiblessUITableViewCell.swift */,
+			);
+			path = NiblessComponents;
+			sourceTree = "<group>";
+		};
+		EE8AB6FD26EDD140003788DF /* Foundation */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6F626EDCB24003788DF /* NiblessComponents */,
+			);
+			path = Foundation;
+			sourceTree = "<group>";
+		};
+		EE8AB6FE26EDD15C003788DF /* Application */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB67326EC33B4003788DF /* AppDelegate.swift */,
+				EE8AB67526EC33B4003788DF /* SceneDelegate.swift */,
+				EE8AB6F026EDC179003788DF /* CarListSceneDIContainer.swift */,
+			);
+			path = Application;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -417,17 +464,22 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8AB6F126EDC179003788DF /* CarListSceneDIContainer.swift in Sources */,
 				EE8AB6B026EC7240003788DF /* CarsRepository.swift in Sources */,
-				EE8AB67826EC33B4003788DF /* ViewController.swift in Sources */,
+				EE8AB6F326EDC824003788DF /* CarListViewModel.swift in Sources */,
+				EE8AB67826EC33B4003788DF /* CarListViewController.swift in Sources */,
 				EE8AB6E826ED7726003788DF /* GetCarListSession.swift in Sources */,
 				EE8AB6D526ECC9A8003788DF /* SampleDataCarsRepository.swift in Sources */,
 				EE8AB67426EC33B4003788DF /* AppDelegate.swift in Sources */,
 				EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */,
+				EE8AB6FA26EDCB67003788DF /* NiblessUITableViewCell.swift in Sources */,
 				EE8AB6AA26EC41AA003788DF /* Car.swift in Sources */,
 				EE8AB6E526ECDBAC003788DF /* APIService.swift in Sources */,
 				EE8AB6AE26EC71DE003788DF /* APIError.swift in Sources */,
 				EE8AB6E326ECDAE3003788DF /* API.swift in Sources */,
+				EE8AB6F826EDCB39003788DF /* NiblessView.swift in Sources */,
 				EE8AB67626EC33B4003788DF /* SceneDelegate.swift in Sources */,
+				EE8AB6F526EDC937003788DF /* NiblessViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

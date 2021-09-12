@@ -12,7 +12,7 @@ class SampleDataCarsRepository: CarsRepository {
 
     let getCarListSession: GetCarListSessionType
 
-    init(getCarListSession: GetCarListSessionType = GetCarListSession()) {
+    init(getCarListSession: GetCarListSessionType) {
         self.getCarListSession = getCarListSession
     }
 

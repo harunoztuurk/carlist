@@ -34,11 +34,11 @@ final class GetCarListSessionSpec: QuickSpec {
                         result = awaitPublisher(request.getCarList())
                     }
 
-                    it("Then loads data with the request URL") {
+                    it("THEN loads data with the request URL") {
                         expect(mockAPIProvider.receivedRequest.url?.absoluteString).to(equal(urlString))
                     }
 
-                    it("Then completes with success result") {
+                    it("THEN completes with success result") {
                         do {
                             let actual = try result?.get()
                             expect(actual).to(equal([Car.toyotaCar, Car.bmwCar]))
@@ -47,7 +47,7 @@ final class GetCarListSessionSpec: QuickSpec {
                         }                    }
                 }
 
-                context("when request fails") {
+                context("WHEN request fails") {
 
                     var expectError: URLError!
                     var result: Result<[Car], APIError>?
@@ -59,7 +59,7 @@ final class GetCarListSessionSpec: QuickSpec {
                         result = awaitPublisher(request.getCarList())
                     }
 
-                    it("completes with failure result") {
+                    it("THEN completes with failure result") {
                         let actualError = result?.getError()
                         expect(actualError).to(equal(APIError.networkError(error: expectError, statusCode: 400)))
                     }
