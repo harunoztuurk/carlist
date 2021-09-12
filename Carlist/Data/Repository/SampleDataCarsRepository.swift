@@ -9,7 +9,14 @@ import Foundation
 import Combine
 
 class SampleDataCarsRepository: CarsRepository {
+
+    let getCarListSession: GetCarListSessionType
+
+    init(getCarListSession: GetCarListSessionType = GetCarListSession()) {
+        self.getCarListSession = getCarListSession
+    }
+
     func getCars() -> AnyPublisher<[Car], APIError> {
-        Just([]).setFailureType(to: APIError.self).eraseToAnyPublisher()
+        getCarListSession.getCarList()
     }
 }

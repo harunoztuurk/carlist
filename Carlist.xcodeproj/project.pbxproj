@@ -238,9 +238,9 @@
 		EE8AB6D126ECC4D7003788DF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB6EE26EDBBDC003788DF /* Repository */,
 				EE8AB6E626ED7702003788DF /* Session */,
 				EE8AB6DD26ECDA2E003788DF /* Networking */,
-				EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */,
 			);
 			path = Data;
 			sourceTree = "<group>";
@@ -268,6 +268,14 @@
 				EE8AB6EA26ED848F003788DF /* GetCarListSessionSpec.swift */,
 			);
 			path = Data;
+			sourceTree = "<group>";
+		};
+		EE8AB6EE26EDBBDC003788DF /* Repository */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */,
+			);
+			path = Repository;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
