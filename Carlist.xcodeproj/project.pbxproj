@@ -40,6 +40,7 @@
 		EE8AB71E26EE25EE003788DF /* CarListEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB71D26EE25EE003788DF /* CarListEmptyView.swift */; };
 		EE8AB72026EE2606003788DF /* CarListLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB71F26EE2606003788DF /* CarListLoadingView.swift */; };
 		EE8AB72226EE2621003788DF /* CarListErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB72126EE2621003788DF /* CarListErrorView.swift */; };
+		EE8AB72526EE281B003788DF /* SnapKit in Frameworks */ = {isa = PBXBuildFile; productRef = EE8AB72426EE281B003788DF /* SnapKit */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -104,6 +105,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8AB72526EE281B003788DF /* SnapKit in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -370,6 +372,7 @@
 			);
 			name = Carlist;
 			packageProductDependencies = (
+				EE8AB72426EE281B003788DF /* SnapKit */,
 			);
 			productName = Carlist;
 			productReference = EE8AB67026EC33B4003788DF /* Carlist.app */;
@@ -449,6 +452,7 @@
 			packageReferences = (
 				EE8AB6BD26EC9AE7003788DF /* XCRemoteSwiftPackageReference "Quick" */,
 				EE8AB6C026EC9B19003788DF /* XCRemoteSwiftPackageReference "Nimble" */,
+				EE8AB72326EE281B003788DF /* XCRemoteSwiftPackageReference "SnapKit" */,
 			);
 			productRefGroup = EE8AB67126EC33B4003788DF /* Products */;
 			projectDirPath = "";
@@ -861,6 +865,14 @@
 				minimumVersion = 9.2.1;
 			};
 		};
+		EE8AB72326EE281B003788DF /* XCRemoteSwiftPackageReference "SnapKit" */ = {
+			isa = XCRemoteSwiftPackageReference;
+			repositoryURL = "https://github.com/SnapKit/SnapKit";
+			requirement = {
+				kind = upToNextMajorVersion;
+				minimumVersion = 5.0.1;
+			};
+		};
 /* End XCRemoteSwiftPackageReference section */
 
 /* Begin XCSwiftPackageProductDependency section */
@@ -873,6 +885,11 @@
 			isa = XCSwiftPackageProductDependency;
 			package = EE8AB6C026EC9B19003788DF /* XCRemoteSwiftPackageReference "Nimble" */;
 			productName = Nimble;
+		};
+		EE8AB72426EE281B003788DF /* SnapKit */ = {
+			isa = XCSwiftPackageProductDependency;
+			package = EE8AB72326EE281B003788DF /* XCRemoteSwiftPackageReference "SnapKit" */;
+			productName = SnapKit;
 		};
 /* End XCSwiftPackageProductDependency section */
 	};
