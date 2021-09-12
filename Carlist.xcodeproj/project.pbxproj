@@ -26,6 +26,11 @@
 		EE8AB6CC26ECB094003788DF /* EquatableViaDump.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6CB26ECB094003788DF /* EquatableViaDump.swift */; };
 		EE8AB6D026ECBFCD003788DF /* ResultExtension.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6CF26ECBFCD003788DF /* ResultExtension.swift */; };
 		EE8AB6D526ECC9A8003788DF /* SampleDataCarsRepository.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */; };
+		EE8AB6E326ECDAE3003788DF /* API.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6E226ECDAE3003788DF /* API.swift */; };
+		EE8AB6E526ECDBAC003788DF /* APIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6E426ECDBAC003788DF /* APIService.swift */; };
+		EE8AB6E826ED7726003788DF /* GetCarListSession.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6E726ED7726003788DF /* GetCarListSession.swift */; };
+		EE8AB6EB26ED848F003788DF /* GetCarListSessionSpec.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6EA26ED848F003788DF /* GetCarListSessionSpec.swift */; };
+		EE8AB6ED26ED8614003788DF /* MockAPIProvider.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6EC26ED8613003788DF /* MockAPIProvider.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -69,6 +74,11 @@
 		EE8AB6CB26ECB094003788DF /* EquatableViaDump.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = EquatableViaDump.swift; sourceTree = "<group>"; };
 		EE8AB6CF26ECBFCD003788DF /* ResultExtension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ResultExtension.swift; sourceTree = "<group>"; };
 		EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SampleDataCarsRepository.swift; sourceTree = "<group>"; };
+		EE8AB6E226ECDAE3003788DF /* API.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = API.swift; sourceTree = "<group>"; };
+		EE8AB6E426ECDBAC003788DF /* APIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = APIService.swift; sourceTree = "<group>"; };
+		EE8AB6E726ED7726003788DF /* GetCarListSession.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarListSession.swift; sourceTree = "<group>"; };
+		EE8AB6EA26ED848F003788DF /* GetCarListSessionSpec.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GetCarListSessionSpec.swift; sourceTree = "<group>"; };
+		EE8AB6EC26ED8613003788DF /* MockAPIProvider.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MockAPIProvider.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -136,6 +146,7 @@
 		EE8AB68926EC33B6003788DF /* CarlistTests */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB6E926ED8477003788DF /* Data */,
 				EE8AB6CA26ECAB44003788DF /* Mock */,
 				EE8AB6C526EC9FBA003788DF /* Helper */,
 				EE8AB6B426EC79F7003788DF /* Domain */,
@@ -219,6 +230,7 @@
 			isa = PBXGroup;
 			children = (
 				EE8AB6B526EC7A40003788DF /* MockCarRepository.swift */,
+				EE8AB6EC26ED8613003788DF /* MockAPIProvider.swift */,
 			);
 			path = Mock;
 			sourceTree = "<group>";
@@ -226,6 +238,7 @@
 		EE8AB6D126ECC4D7003788DF /* Data */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB6E626ED7702003788DF /* Session */,
 				EE8AB6DD26ECDA2E003788DF /* Networking */,
 				EE8AB6D426ECC9A7003788DF /* SampleDataCarsRepository.swift */,
 			);
@@ -235,8 +248,26 @@
 		EE8AB6DD26ECDA2E003788DF /* Networking */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB6E226ECDAE3003788DF /* API.swift */,
+				EE8AB6E426ECDBAC003788DF /* APIService.swift */,
 			);
 			path = Networking;
+			sourceTree = "<group>";
+		};
+		EE8AB6E626ED7702003788DF /* Session */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6E726ED7726003788DF /* GetCarListSession.swift */,
+			);
+			path = Session;
+			sourceTree = "<group>";
+		};
+		EE8AB6E926ED8477003788DF /* Data */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB6EA26ED848F003788DF /* GetCarListSessionSpec.swift */,
+			);
+			path = Data;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -380,11 +411,14 @@
 			files = (
 				EE8AB6B026EC7240003788DF /* CarsRepository.swift in Sources */,
 				EE8AB67826EC33B4003788DF /* ViewController.swift in Sources */,
+				EE8AB6E826ED7726003788DF /* GetCarListSession.swift in Sources */,
 				EE8AB6D526ECC9A8003788DF /* SampleDataCarsRepository.swift in Sources */,
 				EE8AB67426EC33B4003788DF /* AppDelegate.swift in Sources */,
 				EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */,
 				EE8AB6AA26EC41AA003788DF /* Car.swift in Sources */,
+				EE8AB6E526ECDBAC003788DF /* APIService.swift in Sources */,
 				EE8AB6AE26EC71DE003788DF /* APIError.swift in Sources */,
+				EE8AB6E326ECDAE3003788DF /* API.swift in Sources */,
 				EE8AB67626EC33B4003788DF /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -393,10 +427,12 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				EE8AB6ED26ED8614003788DF /* MockAPIProvider.swift in Sources */,
 				EE8AB6D026ECBFCD003788DF /* ResultExtension.swift in Sources */,
 				EE8AB6CC26ECB094003788DF /* EquatableViaDump.swift in Sources */,
 				EE8AB6B626EC7A40003788DF /* MockCarRepository.swift in Sources */,
 				EE8AB6C926ECA7C8003788DF /* Car+Fixture.swift in Sources */,
+				EE8AB6EB26ED848F003788DF /* GetCarListSessionSpec.swift in Sources */,
 				EE8AB6C726EC9FD2003788DF /* QuickSpec+Combine.swift in Sources */,
 				EE8AB6C426EC9B56003788DF /* GetCarListUserCaseSpec.swift in Sources */,
 			);

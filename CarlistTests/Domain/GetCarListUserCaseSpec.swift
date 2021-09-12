@@ -25,7 +25,7 @@ final class GetCarListUserCaseSpec: QuickSpec {
             describe("When repository return an list of cars") {
                 var result: Result<[Car], APIError>?
                 beforeEach {
-                    let car = Car.toyotaCar()
+                    let car = Car.toyotaCar
                     carsRepistory.publisher = Just([car])
                         .setFailureType(to: APIError.self)
                         .eraseToAnyPublisher()
@@ -35,7 +35,7 @@ final class GetCarListUserCaseSpec: QuickSpec {
                 it("Then get a list of car") {
                     do {
                         let actual = try result?.get()
-                        expect(actual).to(equal([Car.toyotaCar()]))
+                        expect(actual).to(equal([Car.toyotaCar]))
                     } catch {
                         fail("carlist should not be nil")
                     }
