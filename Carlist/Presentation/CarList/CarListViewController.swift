@@ -11,6 +11,8 @@ class CarListViewController: NiblessViewController {
 
     let viewModel: CarListViewModel
 
+    let tableView = UITableView()
+
     init(viewModel: CarListViewModel) {
         self.viewModel = viewModel
         super.init()
@@ -19,7 +21,6 @@ class CarListViewController: NiblessViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view.
-        self.view.backgroundColor = .red
+
     }
 }
-

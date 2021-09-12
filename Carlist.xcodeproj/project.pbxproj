@@ -36,6 +36,10 @@
 		EE8AB6F526EDC937003788DF /* NiblessViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6F426EDC937003788DF /* NiblessViewController.swift */; };
 		EE8AB6F826EDCB39003788DF /* NiblessView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6F726EDCB38003788DF /* NiblessView.swift */; };
 		EE8AB6FA26EDCB67003788DF /* NiblessUITableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB6F926EDCB67003788DF /* NiblessUITableViewCell.swift */; };
+		EE8AB71B26EE085D003788DF /* CarListState.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB71A26EE085D003788DF /* CarListState.swift */; };
+		EE8AB71E26EE25EE003788DF /* CarListEmptyView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB71D26EE25EE003788DF /* CarListEmptyView.swift */; };
+		EE8AB72026EE2606003788DF /* CarListLoadingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB71F26EE2606003788DF /* CarListLoadingView.swift */; };
+		EE8AB72226EE2621003788DF /* CarListErrorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = EE8AB72126EE2621003788DF /* CarListErrorView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -89,6 +93,10 @@
 		EE8AB6F426EDC937003788DF /* NiblessViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessViewController.swift; sourceTree = "<group>"; };
 		EE8AB6F726EDCB38003788DF /* NiblessView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessView.swift; sourceTree = "<group>"; };
 		EE8AB6F926EDCB67003788DF /* NiblessUITableViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NiblessUITableViewCell.swift; sourceTree = "<group>"; };
+		EE8AB71A26EE085D003788DF /* CarListState.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListState.swift; sourceTree = "<group>"; };
+		EE8AB71D26EE25EE003788DF /* CarListEmptyView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListEmptyView.swift; sourceTree = "<group>"; };
+		EE8AB71F26EE2606003788DF /* CarListLoadingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListLoadingView.swift; sourceTree = "<group>"; };
+		EE8AB72126EE2621003788DF /* CarListErrorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CarListErrorView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -290,9 +298,8 @@
 		EE8AB6EF26EDC05C003788DF /* Presentation */ = {
 			isa = PBXGroup;
 			children = (
+				EE8AB71926EE0786003788DF /* CarList */,
 				EE8AB6FD26EDD140003788DF /* Foundation */,
-				EE8AB67726EC33B4003788DF /* CarListViewController.swift */,
-				EE8AB6F226EDC823003788DF /* CarListViewModel.swift */,
 			);
 			path = Presentation;
 			sourceTree = "<group>";
@@ -323,6 +330,27 @@
 				EE8AB6F026EDC179003788DF /* CarListSceneDIContainer.swift */,
 			);
 			path = Application;
+			sourceTree = "<group>";
+		};
+		EE8AB71926EE0786003788DF /* CarList */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB71C26EE25E0003788DF /* View */,
+				EE8AB67726EC33B4003788DF /* CarListViewController.swift */,
+				EE8AB6F226EDC823003788DF /* CarListViewModel.swift */,
+				EE8AB71A26EE085D003788DF /* CarListState.swift */,
+			);
+			path = CarList;
+			sourceTree = "<group>";
+		};
+		EE8AB71C26EE25E0003788DF /* View */ = {
+			isa = PBXGroup;
+			children = (
+				EE8AB71D26EE25EE003788DF /* CarListEmptyView.swift */,
+				EE8AB71F26EE2606003788DF /* CarListLoadingView.swift */,
+				EE8AB72126EE2621003788DF /* CarListErrorView.swift */,
+			);
+			path = View;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -470,6 +498,9 @@
 				EE8AB67826EC33B4003788DF /* CarListViewController.swift in Sources */,
 				EE8AB6E826ED7726003788DF /* GetCarListSession.swift in Sources */,
 				EE8AB6D526ECC9A8003788DF /* SampleDataCarsRepository.swift in Sources */,
+				EE8AB71B26EE085D003788DF /* CarListState.swift in Sources */,
+				EE8AB72026EE2606003788DF /* CarListLoadingView.swift in Sources */,
+				EE8AB72226EE2621003788DF /* CarListErrorView.swift in Sources */,
 				EE8AB67426EC33B4003788DF /* AppDelegate.swift in Sources */,
 				EE8AB6B326EC7745003788DF /* GetCarListUserCase.swift in Sources */,
 				EE8AB6FA26EDCB67003788DF /* NiblessUITableViewCell.swift in Sources */,
@@ -480,6 +511,7 @@
 				EE8AB6F826EDCB39003788DF /* NiblessView.swift in Sources */,
 				EE8AB67626EC33B4003788DF /* SceneDelegate.swift in Sources */,
 				EE8AB6F526EDC937003788DF /* NiblessViewController.swift in Sources */,
+				EE8AB71E26EE25EE003788DF /* CarListEmptyView.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
